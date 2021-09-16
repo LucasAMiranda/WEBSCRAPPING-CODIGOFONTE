@@ -35,7 +35,7 @@ table = soup.find(name='table')
 # 3 - Estrutura conteúdo em um DataFrame -  Pandas
 #rastreando as 10 primeiras colunas na tabela
 
-df_full = pd.read_html(str(table)[0].head(10))
+df_full = pd.read_html(str(table))[0].head(10)
 df = df_full[['Unnamed: 0', 'PLAYER', 'TEAM', 'PTS']]
 df.columns = ['pos', 'player', 'team', 'total']
 

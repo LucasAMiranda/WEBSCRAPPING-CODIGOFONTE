@@ -246,3 +246,28 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 1631824468739	Marionette	INFO	Listening on port 59198
 1631824469158	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 Exiting due to channel error.
+1631827472166	geckodriver	INFO	Listening on 127.0.0.1:62723
+1631827475248	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileO71Xv5"
+1631827477743	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofileO71Xv5\\search.json.mozlz4", (void 0)))
+1631827482558	Marionette	INFO	Listening on port 62731
+1631827483385	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://i.cdn.turner.com/ads/adfuel/ais/2.1/nba3-ais.min.js, line 7: TypeError: can't convert undefined to object
+1631827907589	Marionette	INFO	Stopped listening on port 62731
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1631827917786	geckodriver	INFO	Listening on 127.0.0.1:64934
+1631827920809	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-no-remote" "-profile" "C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofiley1JBSj"
+1631827921471	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\lucas\\AppData\\Local\\Temp\\rust_mozprofiley1JBSj\\search.json.mozlz4", (void 0)))
+1631827925499	Marionette	INFO	Listening on port 64943
+1631827925796	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://i.cdn.turner.com/ads/adfuel/ais/2.1/nba3-ais.min.js, line 7: TypeError: can't convert undefined to object
+JavaScript error: https://i.cdn.turner.com/ads/adfuel/ais/2.1/nba3-ais.min.js, line 7: TypeError: can't convert undefined to object
+1631827946530	Marionette	INFO	Stopped listening on port 64943
+JavaScript error: resource:///modules/Interactions.jsm, line 230: NS_ERROR_FAILURE: Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIUserIdleService.removeIdleObserver]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
