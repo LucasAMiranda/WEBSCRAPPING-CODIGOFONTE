@@ -21,6 +21,6 @@
  
 <footer>
   <h2> Gerenciador de dependência do Python </h2>
-  <p> Leia a documentação do <a href= "https://pipenv.pypa.io/en/latest/> PIPENV </a></p>
+  <p> Leia a documentação do <a href= "https://pipenv.pypa.io/en/latest> PIPENV </a></p>
 </footer>
 
